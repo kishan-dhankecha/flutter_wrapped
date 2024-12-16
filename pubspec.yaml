@@ -1,0 +1,48 @@
+name: flutter_wrapped
+description: "Flutter wrappped for 2024"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.1
+  wolt_responsive_layout_grid: ^0.0.3
+  wolt_modal_sheet:
+    git:
+      url: https://github.com/TahaTesser/wolt_modal_sheet.git
+  demo_ui_components:
+    git:
+      url: https://github.com/TahaTesser/wolt_modal_sheet.git
+      path: demo_ui_components
+  wolt_di:
+    git:
+      url: https://github.com/TahaTesser/wolt_modal_sheet.git
+      path: wolt_di
+  wolt_state_management:
+    git:
+      url: https://github.com/TahaTesser/wolt_modal_sheet.git
+      path: wolt_state_management
+  flex_color_scheme: ^8.0.2
+  fl_chart: ^0.69.2
+  google_fonts: ^6.0.0
+  auto_size_text_plus: ^3.0.2
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
