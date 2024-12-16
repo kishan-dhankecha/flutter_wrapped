@@ -1,16 +1,3 @@
-# flutter_wrapped
+# Flutter Contributors Wrapped 2024
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This is a Flutter project that showcases the contributions of the Flutter community in the [flutter/flutter](https://github.com/flutter/flutter), [flutter/engine](https://github.com/flutter/engine), and [flutter/packages](https://github.com/flutter/packages) repositories between January 1, 2024 and December 13, 2024.
