@@ -36,9 +36,18 @@ class ReviewersPage extends StatelessWidget {
           Expanded(
             child: TabBarView(
               children: [
-                ChartsSection(contributors: flutterReviewers),
-                ChartsSection(contributors: flutterEngineReviewers),
-                ChartsSection(contributors: flutterPackagesReviewers),
+                ChartsSection(
+                  contributors: flutterReviewers,
+                  title: 'Top Contributors by Reviews',
+                ),
+                ChartsSection(
+                  contributors: flutterEngineReviewers,
+                  title: 'Top Contributors by Reviews',
+                ),
+                ChartsSection(
+                  contributors: flutterPackagesReviewers,
+                  title: 'Top Contributors by Reviews',
+                ),
               ],
             ),
           ),

@@ -35,9 +35,18 @@ class CommitsPage extends StatelessWidget {
           Expanded(
             child: TabBarView(
               children: [
-                ChartsSection(contributors: flutterCommitters),
-                ChartsSection(contributors: flutterEngineCommitters),
-                ChartsSection(contributors: flutterPackagesCommitters),
+                ChartsSection(
+                  contributors: flutterCommitters,
+                  title: 'Top Contributors by Commits',
+                ),
+                ChartsSection(
+                  contributors: flutterEngineCommitters,
+                  title: 'Top Contributors by Commits',
+                ),
+                ChartsSection(
+                  contributors: flutterPackagesCommitters,
+                  title: 'Top Contributors by Commits',
+                ),
               ],
             ),
           ),

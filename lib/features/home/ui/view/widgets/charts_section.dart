@@ -6,9 +6,14 @@ import '../../../domain/entities/contributor.dart';
 import 'contributors_graph.dart';
 
 class ChartsSection extends StatelessWidget {
-  const ChartsSection({super.key, required this.contributors});
+  const ChartsSection({
+    super.key,
+    required this.contributors,
+    required this.title,
+  });
 
   final StatefulValueListenable<List<Contributor>> contributors;
+  final String title;
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +38,7 @@ class ChartsSection extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         AutoSizeText(
-                          'Top Contributors by Commits',
+                          title,
                           maxFontSize: 28,
                           minFontSize: 12,
                           maxLines: 2,
