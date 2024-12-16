@@ -14,17 +14,25 @@ class HomeService {
   final ValueNotifier<List<Contributor>> _flutterReviewers = ValueNotifier([]);
   ValueNotifier<List<Contributor>> get flutterReviewers => _flutterReviewers;
 
-  final ValueNotifier<List<Contributor>> _flutterEngineCommitters = ValueNotifier([]);
-  ValueNotifier<List<Contributor>> get flutterEngineCommitters => _flutterEngineCommitters;
+  final ValueNotifier<List<Contributor>> _flutterEngineCommitters =
+      ValueNotifier([]);
+  ValueNotifier<List<Contributor>> get flutterEngineCommitters =>
+      _flutterEngineCommitters;
 
-  final ValueNotifier<List<Contributor>> _flutterEngineReviewers = ValueNotifier([]);
-  ValueNotifier<List<Contributor>> get flutterEngineReviewers => _flutterEngineReviewers;
+  final ValueNotifier<List<Contributor>> _flutterEngineReviewers =
+      ValueNotifier([]);
+  ValueNotifier<List<Contributor>> get flutterEngineReviewers =>
+      _flutterEngineReviewers;
 
-  final ValueNotifier<List<Contributor>> _flutterPackagesCommitters = ValueNotifier([]);
-  ValueNotifier<List<Contributor>> get flutterPackagesCommitters => _flutterPackagesCommitters;
+  final ValueNotifier<List<Contributor>> _flutterPackagesCommitters =
+      ValueNotifier([]);
+  ValueNotifier<List<Contributor>> get flutterPackagesCommitters =>
+      _flutterPackagesCommitters;
 
-  final ValueNotifier<List<Contributor>> _flutterPackagesReviewers = ValueNotifier([]);
-  ValueNotifier<List<Contributor>> get flutterPackagesReviewers => _flutterPackagesReviewers;
+  final ValueNotifier<List<Contributor>> _flutterPackagesReviewers =
+      ValueNotifier([]);
+  ValueNotifier<List<Contributor>> get flutterPackagesReviewers =>
+      _flutterPackagesReviewers;
 
   dispose() {
     _flutterCommitters.dispose();
@@ -44,18 +52,22 @@ class HomeService {
   }
 
   Future<void> getFlutterEngineCommitters() async {
-    _flutterEngineCommitters.value = await _homeRepository.fetchFlutterEngineCommitters();
+    _flutterEngineCommitters.value =
+        await _homeRepository.fetchFlutterEngineCommitters();
   }
 
   Future<void> getFlutterEngineReviewers() async {
-    _flutterEngineReviewers.value = await _homeRepository.fetchFlutterEngineReviewers();
+    _flutterEngineReviewers.value =
+        await _homeRepository.fetchFlutterEngineReviewers();
   }
 
   Future<void> getFlutterPackagesCommitters() async {
-    _flutterPackagesCommitters.value = await _homeRepository.fetchFlutterPackagesCommitters();
+    _flutterPackagesCommitters.value =
+        await _homeRepository.fetchFlutterPackagesCommitters();
   }
 
   Future<void> getFlutterPackagesReviewers() async {
-    _flutterPackagesReviewers.value = await _homeRepository.fetchFlutterPackagesReviewers();
+    _flutterPackagesReviewers.value =
+        await _homeRepository.fetchFlutterPackagesReviewers();
   }
 }

@@ -24,7 +24,8 @@ class HomeLocalDataSourceImpl implements HomeLocalDataSource {
   List<Contributor> _flutterEngineCommitters = _flutterEngineCommittersData();
   List<Contributor> _flutterEngineReviewers = _flutterEngineReviewersData();
 
-  List<Contributor> _flutterPackagesCommitters = _flutterPackagesCommittersData();
+  List<Contributor> _flutterPackagesCommitters =
+      _flutterPackagesCommittersData();
   List<Contributor> _flutterPackagesReviewers = _flutterPackagesReviewersData();
 
   @override
@@ -167,13 +168,13 @@ List<Contributor> _flutterCommittersData() {
     x: xIndex++,
     name: 'QuncCccccc',
     commits: 47,
-    imageUrl: "https://avatars.githubusercontent.com/u/64673335?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/36861262?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'ksokolovskyi',
     commits: 47,
-    imageUrl: "https://avatars.githubusercontent.com/u/84635316?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/30288967?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -197,7 +198,7 @@ List<Contributor> _flutterCommittersData() {
     x: xIndex++,
     name: 'jason-simmons',
     commits: 37,
-    imageUrl: "https://avatars.githubusercontent.com/u/2094516?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/14226037?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -215,13 +216,13 @@ List<Contributor> _flutterCommittersData() {
     x: xIndex++,
     name: 'victorsanni',
     commits: 30,
-    imageUrl: "https://avatars.githubusercontent.com/u/66041044?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/77553258?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'eyebrowsoffire',
     commits: 30,
-    imageUrl: "https://avatars.githubusercontent.com/u/2837893?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/26911996?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -233,37 +234,37 @@ List<Contributor> _flutterCommittersData() {
     x: xIndex++,
     name: 'godofredoc',
     commits: 29,
-    imageUrl: "https://avatars.githubusercontent.com/u/2678340?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/54371434?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'itsjustkevin',
     commits: 28,
-    imageUrl: "https://avatars.githubusercontent.com/u/77747739?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/11145366?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'hannah-hyj',
     commits: 27,
-    imageUrl: "https://avatars.githubusercontent.com/u/95276135?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/108393416?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'dkwingsmt',
     commits: 26,
-    imageUrl: "https://avatars.githubusercontent.com/u/2759394?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1596656?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'reidbaker',
     commits: 26,
-    imageUrl: "https://avatars.githubusercontent.com/u/1907037?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1063596?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'dcharkes',
     commits: 26,
-    imageUrl: "https://avatars.githubusercontent.com/u/3664595?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/3601775?v=4",
   ));
 
   return contributors;
@@ -289,7 +290,7 @@ List<Contributor> _flutterReviewersData() {
     x: xIndex++,
     name: 'justinmc',
     commits: 219,
-    imageUrl: "https://avatars.githubusercontent.com/u/279406?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/389558?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -307,13 +308,13 @@ List<Contributor> _flutterReviewersData() {
     x: xIndex++,
     name: 'reidbaker',
     commits: 146,
-    imageUrl: "https://avatars.githubusercontent.com/u/1907037?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1063596?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'QuncCccccc',
     commits: 139,
-    imageUrl: "https://avatars.githubusercontent.com/u/64673335?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/36861262?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -355,7 +356,7 @@ List<Contributor> _flutterReviewersData() {
     x: xIndex++,
     name: 'chunhtai',
     commits: 90,
-    imageUrl: "https://avatars.githubusercontent.com/u/32599364?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/47866232?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -367,19 +368,19 @@ List<Contributor> _flutterReviewersData() {
     x: xIndex++,
     name: 'victorsanni',
     commits: 75,
-    imageUrl: "https://avatars.githubusercontent.com/u/66041044?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/77553258?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'MitchellGoodwin',
     commits: 67,
-    imageUrl: "https://avatars.githubusercontent.com/u/10353930?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/58190796?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'Renzo-Olivares',
     commits: 67,
-    imageUrl: "https://avatars.githubusercontent.com/u/60179889?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/948037?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -397,7 +398,7 @@ List<Contributor> _flutterReviewersData() {
     x: xIndex++,
     name: 'bkonyi',
     commits: 55,
-    imageUrl: "https://avatars.githubusercontent.com/u/1360885?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/24210656?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -427,7 +428,7 @@ List<Contributor> _flutterReviewersData() {
     x: xIndex++,
     name: 'dkwingsmt',
     commits: 37,
-    imageUrl: "https://avatars.githubusercontent.com/u/2759394?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1596656?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -445,13 +446,13 @@ List<Contributor> _flutterReviewersData() {
     x: xIndex++,
     name: 'stuartmorgan',
     commits: 36,
-    imageUrl: "https://avatars.githubusercontent.com/u/1884355?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/122189?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'bartekpacia',
     commits: 33,
-    imageUrl: "https://avatars.githubusercontent.com/u/37117648?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/40357511?v=4",
   ));
 
   return reviewers;
@@ -477,7 +478,7 @@ List<Contributor> _flutterEngineCommittersData() {
     x: xIndex++,
     name: 'gaaclarke',
     commits: 154,
-    imageUrl: "https://avatars.githubusercontent.com/u/5572118?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/30870216?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -489,7 +490,7 @@ List<Contributor> _flutterEngineCommittersData() {
     x: xIndex++,
     name: 'jason-simmons',
     commits: 142,
-    imageUrl: "https://avatars.githubusercontent.com/u/2094516?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/14226037?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -507,25 +508,25 @@ List<Contributor> _flutterEngineCommittersData() {
     x: xIndex++,
     name: 'bdero',
     commits: 108,
-    imageUrl: "https://avatars.githubusercontent.com/u/948896?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/919017?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'robert-ancell',
     commits: 82,
-    imageUrl: "https://avatars.githubusercontent.com/u/59682?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/126560?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'flar',
     commits: 76,
-    imageUrl: "https://avatars.githubusercontent.com/u/1454779?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/50503328?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'eyebrowsoffire',
     commits: 51,
-    imageUrl: "https://avatars.githubusercontent.com/u/2837893?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/26911996?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -561,85 +562,85 @@ List<Contributor> _flutterEngineCommittersData() {
     x: xIndex++,
     name: 'harryterkelsen',
     commits: 28,
-    imageUrl: "https://avatars.githubusercontent.com/u/14047597?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1961493?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'zijiehe-google-com',
     commits: 27,
-    imageUrl: "https://avatars.githubusercontent.com/u/17860587?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/68449066?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'johnmccutchan',
     commits: 26,
-    imageUrl: "https://avatars.githubusercontent.com/u/1194278?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/224266?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'dkwingsmt',
     commits: 25,
-    imageUrl: "https://avatars.githubusercontent.com/u/2759394?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1596656?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'itsjustkevin',
     commits: 24,
-    imageUrl: "https://avatars.githubusercontent.com/u/77747739?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/11145366?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'ditman',
     commits: 21,
-    imageUrl: "https://avatars.githubusercontent.com/u/1786804?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1255594?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'mdebbar',
     commits: 21,
-    imageUrl: "https://avatars.githubusercontent.com/u/1915768?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1278212?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'tugorez',
     commits: 17,
-    imageUrl: "https://avatars.githubusercontent.com/u/10422701?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/7821057?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'knopp',
     commits: 15,
-    imageUrl: "https://avatars.githubusercontent.com/u/96342?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/96958?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'aam',
     commits: 15,
-    imageUrl: "https://avatars.githubusercontent.com/u/3393426?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/381137?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'kjlubick',
     commits: 15,
-    imageUrl: "https://avatars.githubusercontent.com/u/6051776?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/6819944?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'hellohuanlin',
     commits: 14,
-    imageUrl: "https://avatars.githubusercontent.com/u/25635227?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/41930132?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'godofredoc',
     commits: 13,
-    imageUrl: "https://avatars.githubusercontent.com/u/2678340?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/54371434?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'reidbaker',
     commits: 13,
-    imageUrl: "https://avatars.githubusercontent.com/u/1907037?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1063596?v=4",
   ));
 
   return contributors;
@@ -683,19 +684,19 @@ List<Contributor> _flutterEngineReviewersData() {
     x: xIndex++,
     name: 'gaaclarke',
     commits: 159,
-    imageUrl: "https://avatars.githubusercontent.com/u/5572118?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/30870216?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'jason-simmons',
     commits: 144,
-    imageUrl: "https://avatars.githubusercontent.com/u/2094516?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/14226037?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'bdero',
     commits: 116,
-    imageUrl: "https://avatars.githubusercontent.com/u/948896?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/919017?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -719,61 +720,61 @@ List<Contributor> _flutterEngineReviewersData() {
     x: xIndex++,
     name: 'johnmccutchan',
     commits: 69,
-    imageUrl: "https://avatars.githubusercontent.com/u/1194882?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/224266?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'stuartmorgan',
     commits: 61,
-    imageUrl: "https://avatars.githubusercontent.com/u/1884355?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/122189?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'reidbaker',
     commits: 55,
-    imageUrl: "https://avatars.githubusercontent.com/u/1907037?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1063596?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'mdebbar',
     commits: 53,
-    imageUrl: "https://avatars.githubusercontent.com/u/1915768?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1278212?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'jtmcdole',
     commits: 53,
-    imageUrl: "https://avatars.githubusercontent.com/u/2148558?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1924313?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'flar',
     commits: 50,
-    imageUrl: "https://avatars.githubusercontent.com/u/2624187?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/50503328?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'eyebrowsoffire',
     commits: 48,
-    imageUrl: "https://avatars.githubusercontent.com/u/2837893?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/26911996?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'hellohuanlin',
     commits: 41,
-    imageUrl: "https://avatars.githubusercontent.com/u/25635227?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/41930132?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'yaakovschectman',
     commits: 39,
-    imageUrl: "https://avatars.githubusercontent.com/u/5455058?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/109111084?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'ditman',
     commits: 39,
-    imageUrl: "https://avatars.githubusercontent.com/u/1786352?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1255594?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -791,13 +792,13 @@ List<Contributor> _flutterEngineReviewersData() {
     x: xIndex++,
     name: 'dkwingsmt',
     commits: 28,
-    imageUrl: "https://avatars.githubusercontent.com/u/2759394?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1596656?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'harryterkelsen',
     commits: 27,
-    imageUrl: "https://avatars.githubusercontent.com/u/14853?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1961493?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -809,25 +810,25 @@ List<Contributor> _flutterEngineReviewersData() {
     x: xIndex++,
     name: 'jrwang',
     commits: 25,
-    imageUrl: "https://avatars.githubusercontent.com/u/1196745?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1123594?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'CaseyHillers',
     commits: 22,
-    imageUrl: "https://avatars.githubusercontent.com/u/6876577?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/2148558?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'keyonghan',
     commits: 21,
-    imageUrl: "https://avatars.githubusercontent.com/u/6752592?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/54558023?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'chunhtai',
     commits: 19,
-    imageUrl: "https://avatars.githubusercontent.com/u/32681033?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/47866232?v=4",
   ));
 
   return reviewers;
@@ -841,19 +842,19 @@ List<Contributor> _flutterPackagesCommittersData() {
     x: xIndex++,
     name: 'stuartmorgan',
     commits: 183,
-    imageUrl: "https://avatars.githubusercontent.com/u/1884355?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/122189?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'bparrishMines',
     commits: 59,
-    imageUrl: "https://avatars.githubusercontent.com/u/5610087?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/10687576?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'camsim99',
     commits: 37,
-    imageUrl: "https://avatars.githubusercontent.com/u/72411095?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/43054281?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -865,19 +866,19 @@ List<Contributor> _flutterPackagesCommittersData() {
     x: xIndex++,
     name: 'ditman',
     commits: 28,
-    imageUrl: "https://avatars.githubusercontent.com/u/1786352?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1255594?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'LouiseHsu',
     commits: 27,
-    imageUrl: "https://avatars.githubusercontent.com/u/25799336?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/36148254?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'tarrinneal',
     commits: 21,
-    imageUrl: "https://avatars.githubusercontent.com/u/17459354?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/71907763?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -895,7 +896,7 @@ List<Contributor> _flutterPackagesCommittersData() {
     x: xIndex++,
     name: 'yaakovschectman',
     commits: 18,
-    imageUrl: "https://avatars.githubusercontent.com/u/5547487?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/109111084?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -913,19 +914,19 @@ List<Contributor> _flutterPackagesCommittersData() {
     x: xIndex++,
     name: 'reidbaker',
     commits: 15,
-    imageUrl: "https://avatars.githubusercontent.com/u/1907037?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1063596?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'jokerttu',
     commits: 8,
-    imageUrl: "https://avatars.githubusercontent.com/u/73823099?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/5219613?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'chunhtai',
     commits: 7,
-    imageUrl: "https://avatars.githubusercontent.com/u/32681033?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/47866232?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -937,19 +938,19 @@ List<Contributor> _flutterPackagesCommittersData() {
     x: xIndex++,
     name: 'misos1',
     commits: 6,
-    imageUrl: "https://avatars.githubusercontent.com/u/123824662?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/30872003?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'jesswrd',
     commits: 5,
-    imageUrl: "https://avatars.githubusercontent.com/u/87390420?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/177268149?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'stereotype441',
     commits: 4,
-    imageUrl: "https://avatars.githubusercontent.com/u/1860681?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/306375?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -973,31 +974,31 @@ List<Contributor> _flutterPackagesCommittersData() {
     x: xIndex++,
     name: 'eyebrowsoffire',
     commits: 4,
-    imageUrl: "https://avatars.githubusercontent.com/u/2837893?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/26911996?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'EchoEllet',
     commits: 3,
-    imageUrl: "https://avatars.githubusercontent.com/u/76714162?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/73608287?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'sinyu1012',
     commits: 3,
-    imageUrl: "https://avatars.githubusercontent.com/u/46038614?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/11555978?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'navaronbracke',
     commits: 3,
-    imageUrl: "https://avatars.githubusercontent.com/u/49456924?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/23480364?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
     name: 'srujzs',
     commits: 3,
-    imageUrl: "https://avatars.githubusercontent.com/u/8845353?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/58529443?v=4",
   ));
   contributors.add(Contributor(
     x: xIndex++,
@@ -1009,7 +1010,7 @@ List<Contributor> _flutterPackagesCommittersData() {
     x: xIndex++,
     name: 'LinXunFeng',
     commits: 3,
-    imageUrl: "https://avatars.githubusercontent.com/u/19370610?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/19367531?v=4",
   ));
 
   return contributors;
@@ -1023,19 +1024,19 @@ List<Contributor> _flutterPackagesReviewersData() {
     x: xIndex++,
     name: 'stuartmorgan',
     commits: 285,
-    imageUrl: "https://avatars.githubusercontent.com/u/1884355?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/122189?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'tarrinneal',
     commits: 126,
-    imageUrl: "https://avatars.githubusercontent.com/u/17459354?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/71907763?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'reidbaker',
     commits: 98,
-    imageUrl: "https://avatars.githubusercontent.com/u/1907037?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1063596?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -1047,31 +1048,31 @@ List<Contributor> _flutterPackagesReviewersData() {
     x: xIndex++,
     name: 'camsim99',
     commits: 65,
-    imageUrl: "https://avatars.githubusercontent.com/u/72411095?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/43054281?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'bparrishMines',
     commits: 59,
-    imageUrl: "https://avatars.githubusercontent.com/u/5610087?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/10687576?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'hellohuanlin',
     commits: 57,
-    imageUrl: "https://avatars.githubusercontent.com/u/25635227?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/41930132?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'ditman',
     commits: 45,
-    imageUrl: "https://avatars.githubusercontent.com/u/1786352?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1255594?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'chunhtai',
     commits: 38,
-    imageUrl: "https://avatars.githubusercontent.com/u/32681033?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/47866232?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -1095,7 +1096,7 @@ List<Contributor> _flutterPackagesReviewersData() {
     x: xIndex++,
     name: 'hannah-hyj',
     commits: 30,
-    imageUrl: "https://avatars.githubusercontent.com/u/95276135?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/108393416?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -1107,7 +1108,7 @@ List<Contributor> _flutterPackagesReviewersData() {
     x: xIndex++,
     name: 'LouiseHsu',
     commits: 22,
-    imageUrl: "https://avatars.githubusercontent.com/u/25799336?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/36148254?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -1119,7 +1120,7 @@ List<Contributor> _flutterPackagesReviewersData() {
     x: xIndex++,
     name: 'vashworth',
     commits: 15,
-    imageUrl: "https://avatars.githubusercontent.com/u/6622741?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/15619084?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -1131,7 +1132,7 @@ List<Contributor> _flutterPackagesReviewersData() {
     x: xIndex++,
     name: 'Piinks',
     commits: 13,
-    imageUrl: "https://avatars.githubusercontent.com/u/20832114?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/16964204?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -1167,19 +1168,19 @@ List<Contributor> _flutterPackagesReviewersData() {
     x: xIndex++,
     name: 'Renzo-Olivares',
     commits: 9,
-    imageUrl: "https://avatars.githubusercontent.com/u/35273245?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/948037?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'gaaclarke',
     commits: 8,
-    imageUrl: "https://avatars.githubusercontent.com/u/5572118?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/30870216?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'johnmccutchan',
     commits: 5,
-    imageUrl: "https://avatars.githubusercontent.com/u/1194278?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/224266?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
@@ -1191,13 +1192,13 @@ List<Contributor> _flutterPackagesReviewersData() {
     x: xIndex++,
     name: 'mdebbar',
     commits: 4,
-    imageUrl: "https://avatars.githubusercontent.com/u/1915768?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/1278212?v=4",
   ));
   reviewers.add(Contributor(
     x: xIndex++,
     name: 'nate-thegrate',
     commits: 3,
-    imageUrl: "https://avatars.githubusercontent.com/u/35611197?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/10457200?v=4",
   ));
 
   return reviewers;

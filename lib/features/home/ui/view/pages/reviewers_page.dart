@@ -4,8 +4,6 @@ import 'package:wolt_state_management/wolt_state_management.dart';
 import '../../../domain/entities/contributor.dart';
 import '../widgets/charts_section.dart';
 
-
-
 class ReviewersPage extends StatelessWidget {
   const ReviewersPage({
     super.key,

@@ -8,23 +8,35 @@ class HomeScreenViewModel {
 
   final HomeService _homeService;
 
-  final _flutterCommitters = StatefulValueNotifier.idle(List<Contributor>.empty());
-  final _flutterReviewers = StatefulValueNotifier.idle(List<Contributor>.empty());
+  final _flutterCommitters =
+      StatefulValueNotifier.idle(List<Contributor>.empty());
+  final _flutterReviewers =
+      StatefulValueNotifier.idle(List<Contributor>.empty());
 
-  final _flutterEngineCommitters = StatefulValueNotifier.idle(List<Contributor>.empty());
-  final _flutterEngineReviewers = StatefulValueNotifier.idle(List<Contributor>.empty());
+  final _flutterEngineCommitters =
+      StatefulValueNotifier.idle(List<Contributor>.empty());
+  final _flutterEngineReviewers =
+      StatefulValueNotifier.idle(List<Contributor>.empty());
 
-  final _flutterPackagesCommitters = StatefulValueNotifier.idle(List<Contributor>.empty());
-  final _flutterPackagesReviewers = StatefulValueNotifier.idle(List<Contributor>.empty());
+  final _flutterPackagesCommitters =
+      StatefulValueNotifier.idle(List<Contributor>.empty());
+  final _flutterPackagesReviewers =
+      StatefulValueNotifier.idle(List<Contributor>.empty());
 
-  StatefulValueListenable<List<Contributor>> get flutterCommitters => _flutterCommitters;
-  StatefulValueListenable<List<Contributor>> get flutterReviewers => _flutterReviewers;
+  StatefulValueListenable<List<Contributor>> get flutterCommitters =>
+      _flutterCommitters;
+  StatefulValueListenable<List<Contributor>> get flutterReviewers =>
+      _flutterReviewers;
 
-  StatefulValueListenable<List<Contributor>> get flutterEngineCommitters => _flutterEngineCommitters;
-  StatefulValueListenable<List<Contributor>> get flutterEngineReviewers => _flutterEngineReviewers;
+  StatefulValueListenable<List<Contributor>> get flutterEngineCommitters =>
+      _flutterEngineCommitters;
+  StatefulValueListenable<List<Contributor>> get flutterEngineReviewers =>
+      _flutterEngineReviewers;
 
-  StatefulValueListenable<List<Contributor>> get flutterPackagesCommitters => _flutterPackagesCommitters;
-  StatefulValueListenable<List<Contributor>> get flutterPackagesReviewers => _flutterPackagesReviewers;
+  StatefulValueListenable<List<Contributor>> get flutterPackagesCommitters =>
+      _flutterPackagesCommitters;
+  StatefulValueListenable<List<Contributor>> get flutterPackagesReviewers =>
+      _flutterPackagesReviewers;
 
   void getFlutterCommitters() {
     final contributors = _homeService.flutterCommitters.value;
@@ -74,9 +86,13 @@ class HomeScreenViewModel {
   void dispose() {
     _homeService.flutterCommitters.removeListener(getFlutterCommitters);
     _homeService.flutterReviewers.removeListener(getFlutterReviewers);
-    _homeService.flutterEngineCommitters.removeListener(getFlutterEngineCommitters);
-    _homeService.flutterEngineReviewers.removeListener(getFlutterEngineReviewers);
-    _homeService.flutterPackagesCommitters.removeListener(getFlutterPackagesCommitters);
-    _homeService.flutterPackagesReviewers.removeListener(getFlutterPackagesReviewers);
+    _homeService.flutterEngineCommitters
+        .removeListener(getFlutterEngineCommitters);
+    _homeService.flutterEngineReviewers
+        .removeListener(getFlutterEngineReviewers);
+    _homeService.flutterPackagesCommitters
+        .removeListener(getFlutterPackagesCommitters);
+    _homeService.flutterPackagesReviewers
+        .removeListener(getFlutterPackagesReviewers);
   }
 }

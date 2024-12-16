@@ -5,12 +5,12 @@ import '../../../domain/entities/contributor.dart';
 import '../widgets/charts_section.dart';
 
 class CommitsPage extends StatelessWidget {
-  const CommitsPage(
-      {super.key,
-      required this.flutterCommitters,
-      required this.flutterEngineCommitters,
-      required this.flutterPackagesCommitters,
-    });
+  const CommitsPage({
+    super.key,
+    required this.flutterCommitters,
+    required this.flutterEngineCommitters,
+    required this.flutterPackagesCommitters,
+  });
 
   final StatefulValueListenable<List<Contributor>> flutterCommitters;
   final StatefulValueListenable<List<Contributor>> flutterEngineCommitters;
