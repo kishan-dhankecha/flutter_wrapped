@@ -1,6 +1,7 @@
 import 'package:auto_size_text_plus/auto_size_text_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+
 import '../../../domain/entities/popular_item.dart';
 
 final popularPRs = [
@@ -43,7 +44,7 @@ final popularPRs = [
     ),
   ),
   PopularItem(
-    id: '146147171256',
+    id: '147171',
     imageAsset: 'assets/popular_pr_3.png',
     title: 'PR #147171',
     description: 'Popular Pull Request',
