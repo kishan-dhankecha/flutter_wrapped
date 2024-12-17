@@ -1,6 +1,7 @@
 import 'package:auto_size_text_plus/auto_size_text_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+
 import '../../../domain/entities/popular_item.dart';
 
 final popularPRs = [
@@ -10,8 +11,7 @@ final popularPRs = [
     title: 'PR #152472',
     description: 'Popular Pull Request',
     reactions: Reactions(
-      url:
-          'https://api.github.com/repos/flutter/flutter/issues/152472/reactions',
+      url: 'https://api.github.com/repos/flutter/flutter/issues/152472/reactions',
       totalCount: 59,
       plusOne: 17,
       minusOne: 0,
@@ -29,8 +29,7 @@ final popularPRs = [
     title: 'PR #141818',
     description: 'Popular Pull Request',
     reactions: Reactions(
-      url:
-          'https://api.github.com/repos/flutter/flutter/issues/141818/reactions',
+      url: 'https://api.github.com/repos/flutter/flutter/issues/141818/reactions',
       totalCount: 44,
       plusOne: 18,
       minusOne: 0,
@@ -43,13 +42,12 @@ final popularPRs = [
     ),
   ),
   PopularItem(
-    id: '146147171256',
+    id: '147171',
     imageAsset: 'assets/popular_pr_3.png',
     title: 'PR #147171',
     description: 'Popular Pull Request',
     reactions: Reactions(
-      url:
-          'https://api.github.com/repos/flutter/flutter/issues/147171/reactions',
+      url: 'https://api.github.com/repos/flutter/flutter/issues/147171/reactions',
       totalCount: 26,
       plusOne: 9,
       minusOne: 0,
@@ -70,8 +68,7 @@ final popularIssues = [
     title: 'Issue #145954',
     description: 'Popular Issue',
     reactions: Reactions(
-      url:
-          'https://api.github.com/repos/flutter/flutter/issues/145954/reactions',
+      url: 'https://api.github.com/repos/flutter/flutter/issues/145954/reactions',
       totalCount: 328,
       plusOne: 217,
       minusOne: 51,
@@ -89,8 +86,7 @@ final popularIssues = [
     title: 'Issue #151065',
     description: 'Popular Issue',
     reactions: Reactions(
-      url:
-          'https://api.github.com/repos/flutter/flutter/issues/151065/reactions',
+      url: 'https://api.github.com/repos/flutter/flutter/issues/151065/reactions',
       totalCount: 160,
       plusOne: 144,
       minusOne: 0,
@@ -108,8 +104,7 @@ final popularIssues = [
     title: 'Issue #142845',
     description: 'Popular Issue',
     reactions: Reactions(
-      url:
-          'https://api.github.com/repos/flutter/flutter/issues/142845/reactions',
+      url: 'https://api.github.com/repos/flutter/flutter/issues/142845/reactions',
       totalCount: 120,
       plusOne: 94,
       minusOne: 0,
@@ -127,8 +122,7 @@ class NotablePage extends StatelessWidget {
   const NotablePage({super.key});
 
   Future<void> launchGitHubUrl(String prId) async {
-    if (!await launchUrl(
-        Uri.parse('https://github.com/flutter/flutter/pull/$prId'))) {
+    if (!await launchUrl(Uri.parse('https://github.com/flutter/flutter/pull/$prId'))) {
       throw Exception('Could not launch');
     }
   }
@@ -236,10 +230,9 @@ class NotablePage extends StatelessWidget {
                       maxFontSize: 34,
                       minFontSize: 12,
                       maxLines: 2,
-                      style:
-                          Theme.of(context).textTheme.displayMedium!.copyWith(
-                                fontWeight: FontWeight.w900,
-                              ),
+                      style: Theme.of(context).textTheme.displayMedium!.copyWith(
+                            fontWeight: FontWeight.w900,
+                          ),
                     ),
                     const SizedBox(height: 8),
                     AutoSizeText(
@@ -247,11 +240,10 @@ class NotablePage extends StatelessWidget {
                       maxFontSize: 16,
                       minFontSize: 12,
                       maxLines: 2,
-                      style:
-                          Theme.of(context).textTheme.displayMedium!.copyWith(
-                                color: Theme.of(context).colorScheme.secondary,
-                                fontWeight: FontWeight.bold,
-                              ),
+                      style: Theme.of(context).textTheme.displayMedium!.copyWith(
+                            color: Theme.of(context).colorScheme.secondary,
+                            fontWeight: FontWeight.bold,
+                          ),
                     ),
                     const SizedBox(height: 16),
                     Wrap(
@@ -268,11 +260,8 @@ class NotablePage extends StatelessWidget {
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(16),
                                       border: Border.all(
-                                        color: Theme.of(context)
-                                            .colorScheme
-                                            .secondaryContainer,
-                                        strokeAlign:
-                                            BorderSide.strokeAlignOutside,
+                                        color: Theme.of(context).colorScheme.secondaryContainer,
+                                        strokeAlign: BorderSide.strokeAlignOutside,
                                       ),
                                     ),
                                     clipBehavior: Clip.hardEdge,
@@ -284,8 +273,7 @@ class NotablePage extends StatelessWidget {
                                         ),
                                         Padding(
                                           padding: const EdgeInsets.all(8.0),
-                                          child: _buildReactionRow(
-                                              context, item.reactions),
+                                          child: _buildReactionRow(context, item.reactions),
                                         ),
                                       ],
                                     ),
@@ -306,10 +294,9 @@ class NotablePage extends StatelessWidget {
                       maxFontSize: 34,
                       minFontSize: 12,
                       maxLines: 2,
-                      style:
-                          Theme.of(context).textTheme.displayMedium!.copyWith(
-                                fontWeight: FontWeight.w900,
-                              ),
+                      style: Theme.of(context).textTheme.displayMedium!.copyWith(
+                            fontWeight: FontWeight.w900,
+                          ),
                     ),
                     const SizedBox(height: 8),
                     AutoSizeText(
@@ -317,11 +304,10 @@ class NotablePage extends StatelessWidget {
                       maxFontSize: 16,
                       minFontSize: 12,
                       maxLines: 2,
-                      style:
-                          Theme.of(context).textTheme.displayMedium!.copyWith(
-                                color: Theme.of(context).colorScheme.secondary,
-                                fontWeight: FontWeight.bold,
-                              ),
+                      style: Theme.of(context).textTheme.displayMedium!.copyWith(
+                            color: Theme.of(context).colorScheme.secondary,
+                            fontWeight: FontWeight.bold,
+                          ),
                     ),
                     const SizedBox(height: 16),
                     Wrap(
@@ -338,11 +324,8 @@ class NotablePage extends StatelessWidget {
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(16),
                                       border: Border.all(
-                                        color: Theme.of(context)
-                                            .colorScheme
-                                            .secondaryContainer,
-                                        strokeAlign:
-                                            BorderSide.strokeAlignOutside,
+                                        color: Theme.of(context).colorScheme.secondaryContainer,
+                                        strokeAlign: BorderSide.strokeAlignOutside,
                                       ),
                                     ),
                                     clipBehavior: Clip.hardEdge,
@@ -354,8 +337,7 @@ class NotablePage extends StatelessWidget {
                                         ),
                                         Padding(
                                           padding: const EdgeInsets.all(8.9),
-                                          child: _buildReactionRow(
-                                              context, item.reactions),
+                                          child: _buildReactionRow(context, item.reactions),
                                         ),
                                       ],
                                     ),
